@@ -1,0 +1,14 @@
+kakaru is an open hardware control board for the MultiWii software project.
+
+It is designed to be compact, inexpensive, and reasonably easy to hand assemble.
+
+To avoid requiring soldering SMD packages without exposed pads, the sensors are attached from breakout boards. The ATAVRSBIN1 IMU evaluation board from Atmel is used for a compass, magnetometer, and accelerometer. A BMP085 on a sparkfun breakout board provides a pressure sensor. These sensors allow for altitude hold, yaw hold, and auto level.
+
+The board is intended to be powered though the battery elimination circuit (BEC) line of electronic speed controller (ESC). Place a zero ohm resistor for resistor R6 to connect one of the ESC's BEC lines. Populating both R5 and R6 will connect all four ESCs in parallel.
+
+The rectangles on the silkscreen layer near headers signifies ground.
+
+The connections to the BMP085 and ATAVRSBIN1 are new have not been tested. Boards should arrive some time in mid September. The remainder of the board was tested in a previous hardware revision.
+
+All hardware for this project is licensed under a MIT license. 
+
