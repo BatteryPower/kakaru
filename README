@@ -6,11 +6,11 @@ To avoid requiring soldering SMD packages without exposed pads, the sensors are 
 
 The board is intended to be powered though the battery elimination circuit (BEC) line of electronic speed controller (ESC). Place a zero ohm resistor for resistor R6 to connect one of the ESC's BEC lines. Populating both R5 and R6 will connect all four ESCs in parallel.
 
-The rectangles on the silkscreen layer near headers signifies ground.
+The rectangles on the silkscreen layer near headers mark ground.
 
 The connections to the BMP085 and ATAVRSBIN1 are new have not been tested. Boards should arrive some time in mid September. The remainder of the board was tested in a previous hardware revision.
 
 Schematic and board files were made using CadSoft's EAGLE PCB design software.
 
+Software is available from the MultiWii project here: https://code.google.com/p/multiwii/source/browse/#svn%2Ftags
 All hardware for this project is licensed under a MIT license. 
-Software is available from the MultiWii project here: https://code.google.com/p/multiwii/source/browse/
