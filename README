@@ -10,5 +10,7 @@ The rectangles on the silkscreen layer near headers signifies ground.
 
 The connections to the BMP085 and ATAVRSBIN1 are new have not been tested. Boards should arrive some time in mid September. The remainder of the board was tested in a previous hardware revision.
 
-All hardware for this project is licensed under a MIT license. 
+Schematic and board files were made using CadSoft's EAGLE PCB design software.
 
+All hardware for this project is licensed under a MIT license. 
+Software is available from the MultiWii project here: https://code.google.com/p/multiwii/source/browse/
